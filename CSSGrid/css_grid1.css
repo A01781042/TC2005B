@@ -1,0 +1,356 @@
+/*Octavio Fenollosa
+A01781042
+Grid
+*/
+
+body
+{
+    height: 100vh;
+}
+p
+{
+    font-family: Arial Black;
+    text-align: center;
+    color:black;
+    font-size: 25px;
+}
+
+.grid-cont
+{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 35%);
+    gap: 10px;
+    
+}
+
+
+.grid-item{
+    padding: 100px;
+    background-color: rgb(1, 167, 135);
+}
+
+.grid-item2{
+    padding: 100px;
+    background-color: rgb(253,130,92);
+}
+
+.grid-item3{
+    padding: 100px;
+    background-color: rgb(27,193,161);
+}
+
+.grid-item4{
+    padding: 100px;
+    background-color: rgb(252,96,87);
+}
+
+.grid-item5{
+    padding: 100px;
+    background-color: rgb(52,218,186);
+}
+
+.grid-item6{
+    padding: 100px;
+    background-color: rgb(253,130,92);
+}
+
+
+.grid-cont2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 200px;
+    grid-template-areas: "ghr ghr ghd" "gl gm ghd";
+}
+
+.grid-item1-2{
+    grid-area: ghr;
+    background-color: #fc6057;
+    
+}
+
+.grid-item2-2{
+    grid-area: ghd;
+background-color: #61fd8d;
+}
+
+.grid-item3-2{
+    grid-area: gl;
+background-color: #a701a7;
+}
+
+.grid-item4-2{
+    grid-area: gm;
+background-color: #c16b1b;
+}
+
+
+
+
+.grid-cont3{
+    margin: 10px;
+    display: grid;
+    
+
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px 100px ;
+    grid-template-areas: "g1 g1 g1"
+                         "gm2 gl2 gl2"
+                         "g3 g3 g3";
+}
+
+.grid-item1-3{
+    grid-area: g1;
+    background-color:rgb(75, 182, 196);
+    padding: 10px;
+    
+}
+
+.grid-item2-3{
+    grid-area: gm2;
+    background-color:rgb(55, 64, 107);
+    padding: 100px;
+}
+
+.grid-item3-3{
+    grid-area: gl2;
+    background-color: grey;
+    padding: 100px;
+}
+
+.grid-item4-3{
+    grid-area: g3;
+    background-color:rgb(128, 119, 93);
+    padding: 100px;
+}
+
+
+
+.grid-cont4 {
+    margin: 10px;
+    display: grid;
+
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 150px 200px 100px;
+    grid-template-areas:
+        'ghr ghr ghr ghd ghd ghd'
+        'gm gm gn gn gn gn'
+        'gb gb gb gb gb gb';
+
+
+    
+}
+
+
+.grid-item1-4 {
+    grid-area: gm;
+    background-color: #fc6057;
+    padding: 100px;
+
+}
+
+.grid-item2-4 {
+    grid-area: gb;
+    background-color: #fd825c;
+    padding: 100px;
+}
+
+.grid-item3-4 {
+
+    grid-area: ghd;
+    background-color: #fff324;
+    padding: 100px;
+}
+
+.grid-item4-4 {
+    grid-area: gn;
+    background-color: #1bc2d3;
+    padding: 100px;
+}
+
+
+.grid-item5-4 {
+    grid-area: ghr;
+    background-color: #97fd5c;
+    padding: 75px;
+}
+
+
+
+.grid-cont5{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(3, 200px);
+    
+}
+
+.grid-item1-5 {
+
+    background-color: #01a787;
+}
+
+.grid-item2-5 {
+    background-color: #fd825c;
+}
+
+.grid-item3-5 {
+    background-color: #1bc1a1;
+}
+
+.grid-item4-5 {
+    background-color: #fc6057;
+}
+
+.grid-item5-5 {
+    background-color: #34daba;
+}
+
+.grid-item6-5 {
+    background-color: #fd825c;
+}
+
+.grid-item7-5 {
+
+    background-color: #fda061;
+}
+
+.grid-item8-5 {
+    background-color: #01a787;
+}
+
+.grid-item9-5 {
+    background-color: #fd825c;
+}
+
+.grid-item10-5 {
+    background-color: #1bc1a1;
+}
+
+.grid-item11-5 {
+    background-color: #fda061;
+}
+
+.grid-item12-5 {
+    background-color: #fc6057;
+}
+
+.grid-item13-5 {
+
+    background-color: #01a787;
+}
+
+.grid-item14-5 {
+    background-color: #fc6057;
+}
+
+.grid-item15-5 {
+    background-color: #34daba;
+}
+
+.grid-item16-5 {
+    background-color: #fd825c;
+}
+
+.grid-item17-5 {
+    background-color: #01a787;
+}
+
+.grid-item18-5 {
+    background-color: #34daba;
+}
+
+
+.grid-cont6 {
+    margin: 10px;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+        "item1 item1 item2 item3"
+        "item4 item5 item6 ."
+        "item7 item7 item8 item9"
+        "item7 item7 item10 ."
+        "item11 item11 item11 item12";
+}
+
+.grid-item1-6{
+    grid-area: item1;
+    padding: 25px;
+    background-color: #0122a7;
+}
+
+.grid-item2-6{
+    grid-area: item2;
+    padding: 25px;
+    background-color: #fd825c;
+}
+
+.grid-item3-6{
+    grid-area: item3;
+    padding: 25px;
+    background-color: #5dc11b;
+}
+
+.grid-item4-6{
+    grid-area: item4;
+    padding: 25px;
+    background-color: #fd825c;
+}
+
+.grid-item5-6{
+    grid-area: item5;
+    padding: 25px;
+    background-color: #80fd61;
+}
+
+.grid-item6-6{
+    grid-area: item6;
+    padding: 25px;
+    background-color: #da3476;
+}
+
+.grid-item7-6{
+    grid-area: item7;
+    padding: 25px;
+    background-color: #da3434;
+}
+
+.grid-item8-6{
+    grid-area: item8;
+    padding: 25px;
+    background-color: #f1fc57;
+}
+    
+
+.grid-item9-6{
+    grid-area: item9;
+    padding: 25px;
+    background-color: #61fdeb;
+}
+
+.grid-item10-6{
+    grid-area: item10;
+    padding: 25px;
+    background-color: #c11b92;
+}
+
+.grid-item11-6{
+    grid-area: item11;
+    padding: 25px;
+    background-color: #fc6057;
+}
+
+.grid-item12-6{
+    grid-area: item12;
+    padding: 25px;
+    background-color: #b3da34;
+}
+
