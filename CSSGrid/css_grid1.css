@@ -57,9 +57,13 @@ p
 }
 
 
+
+
 .grid-cont2
 {
+    gap: 10px;
     display: grid;
+    
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px 200px;
     grid-template-areas: "ghr ghr ghd" "gl gm ghd";
@@ -68,6 +72,7 @@ p
 .grid-item1-2{
     grid-area: ghr;
     background-color: #fc6057;
+    padding: 10px;
     
 }
 
@@ -90,6 +95,7 @@ background-color: #c16b1b;
 
 
 .grid-cont3{
+    gap: 10px;
     margin: 10px;
     display: grid;
     
@@ -132,7 +138,8 @@ background-color: #c16b1b;
 .grid-cont4 {
     margin: 10px;
     display: grid;
-
+    gap: 10px;
+    
 
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 150px 200px 100px;
@@ -163,7 +170,7 @@ background-color: #c16b1b;
 
     grid-area: ghd;
     background-color: #fff324;
-    padding: 100px;
+    padding: 75px;
 }
 
 .grid-item4-4 {
@@ -185,8 +192,10 @@ background-color: #c16b1b;
     display:grid;
     gap: 10px;
     margin: 10px;
+    
 
-    grid-template-columns: repeat(6, 16%);
+
+    grid-template-columns: repeat(6, 15%);
     grid-template-rows: repeat(3, 200px);
     
 }
@@ -194,6 +203,7 @@ background-color: #c16b1b;
 .grid-item1-5 {
 
     background-color: #01a787;
+    
 }
 
 .grid-item2-5 {
@@ -270,6 +280,7 @@ background-color: #c16b1b;
 .grid-cont6 {
     margin: 10px;
     display: grid;
+    background-color: #012b23;
 
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 100px 100px 100px 100px;
@@ -284,6 +295,7 @@ background-color: #c16b1b;
 .grid-item1-6{
     grid-area: item1;
     padding: 25px;
+    gap: 10px;
     background-color: #0122a7;
 }
 
@@ -354,3 +366,8 @@ background-color: #c16b1b;
     background-color: #b3da34;
 }
 
+
+.grid-cont7
+{
+
+}
