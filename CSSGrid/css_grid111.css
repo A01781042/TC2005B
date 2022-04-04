@@ -175,8 +175,7 @@ background-color: #c16b1b;
 }
 
 
-
-.grid-cont5{
+.grid5-cont{
     display:grid;
     gap: 10px;
     margin: 10px;
@@ -260,9 +259,6 @@ background-color: #c16b1b;
 .grid-item18-5 {
     background-color: #34daba;
 }
-
-
-
 
 
 
