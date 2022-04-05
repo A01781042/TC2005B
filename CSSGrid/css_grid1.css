@@ -280,13 +280,13 @@ background-color: #c16b1b;
 .grid-cont6 {
     margin: 10px;
     display: grid;
-    background-color: #012b23;
+    background-color: #01372d;
 
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 100px 100px 100px 100px;
     grid-template-areas: 
         "item1 item1 item2 item3"
-        "item4 item5 item6 ."
+        "item4 item5 item6  ."
         "item7 item7 item8 item9"
         "item7 item7 item10 ."
         "item11 item11 item11 item12";
@@ -367,7 +367,3 @@ background-color: #c16b1b;
 }
 
 
-.grid-cont7
-{
-
-}
